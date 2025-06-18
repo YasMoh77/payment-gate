@@ -1,8 +1,8 @@
-
-
 <?php
 
+//include backend
 include  'backend.php';
+
 
 ?>
 
@@ -31,9 +31,9 @@ include  'backend.php';
 
 <body>
 
-<a target="_blank" href="<?php echo $hppUrl ?>"> Click to check Hosted Payment Page Form </a>
+<a target="_blank" href="<?php echo $hppUrl ?>"> Click to continue </a> <!--  Click to check Hosted Payment Page Form -->
 
-<script id="kashier-iFrame"
+<!--<script id="kashier-iFrame"
 
       src="<?php echo $order->baseUrl ?>/kashier-checkout.js"
 
@@ -60,7 +60,7 @@ include  'backend.php';
       data-type = "external"
 
       data-display="en"  >
- </script>
+ </script>-->
 
 </body>
 
